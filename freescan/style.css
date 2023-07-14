@@ -1,0 +1,17 @@
+
+
+    p{
+        text-decoration: underline;
+    }
+   body{
+    background-image: url(https://i.pinimg.com/originals/9a/b7/fb/9ab7fbd8e73720f9bef114045fc6d482.jpg);
+    background-size: 150%;
+   }
+   .button {
+    display: inline-block;
+    margin-right: 1000px;
+    }
+    h1{
+        color: #000;
+        text-decoration: none;
+    }
