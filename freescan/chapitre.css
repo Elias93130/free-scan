@@ -1,0 +1,16 @@
+
+
+    img{
+        width: 700px;
+        align-items: center;
+        display: block;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        margin: 0 auto;
+    }
+
+    img{
+
+        margin-bottom: 20px;
+    }
