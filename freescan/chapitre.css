@@ -13,6 +13,9 @@
     img{
 
         margin-bottom: 20px;
+        display: inline-block;
+            border: 1px solid black;
+            padding: 5px;
     }
     button{
        text-align: center;
