@@ -15,3 +15,9 @@
         color: #000;
         text-decoration: none;
     }
+
+    img{
+        display: inline-block;
+        margin-right: 100px;
+        height: 400px;
+    }
