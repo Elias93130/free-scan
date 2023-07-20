@@ -35,6 +35,31 @@ p{
     color: white;
     }
 
+
+    .centered-image{
+
+        
+      height: 250px ;
+          position: absolute;
+          top: 15%;
+          left: 50%;
+          transform: translate(-50%, -50%)
+
+
+  }
+  body{
+    margin: 0;
+    padding: 0;
+    background-color: #fff;
+    background-image: url('img/tissu-blanc_53876-89528.avif');
+    background-repeat: no-repeat;
+    background-position: center center;
+    height: 1000px;
+}
+
+    
+    
+
    
     
     
