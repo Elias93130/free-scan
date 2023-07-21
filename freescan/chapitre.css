@@ -8,13 +8,25 @@
         align-items: center;
         justify-content: center;
         margin: 0 auto;
+        gap:20px;
     }
 
-    img{
-        margin-bottom: 20px;
-        border: 3px solid black;
-        padding: 5px;
-    }
     button{
        text-align: center;
     }
+
+    .centered-image{
+        width: 500px;
+    }
+
+    body{
+        background-image: url(img/tissu-blanc_53876-89528.avif);
+        background-size: 100%;
+       }
+
+       .conteneur-images{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        padding: 20px;
+       }
