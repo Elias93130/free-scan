@@ -30,3 +30,11 @@
         justify-content: center;
         padding: 20px;
        }
+
+       input[type="text"] {
+        padding: 10px;
+        font-size: 16px;
+        width: 300px;
+        border: 1px solid #ccc;
+        border-radius: 5px;
+        }

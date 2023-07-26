@@ -42,7 +42,16 @@ div{
       position: absolute;
       top: 15%;
       left: 50%;
-      transform: translate(-50%, -85%)
+      transform: translate(-50%, -65%)
       }
+
+
+      input[type="text"] {
+        padding: 10px;
+        font-size: 16px;
+        width: 300px;
+        border: 1px solid #ccc;
+        border-radius: 5px;
+        }
   
  
