@@ -21,6 +21,9 @@ document.getElementById('searchForm').addEventListener('submit', function(event)
     } else if (searchTerm === "deathnote") {
         window.location.href = "deathnote.html";
         return false;
+    } else if (searchTerm === "death note") {
+        window.location.href = "deathnote.html";
+        return false;
     } else {
         // Rediriger vers une page d'erreur ou afficher un message d'aucun résultat trouvé
         alert("Aucun résultat trouvé.");
