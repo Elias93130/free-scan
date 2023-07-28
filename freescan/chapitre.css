@@ -42,12 +42,11 @@
        }
 
        .encadre {
-        border: 5px solid black;
+        border: 5px solid black; 
         padding: 17px;
-        justify-content: center;
-        align-items: center;
         height: auto;
         width: 750px;
         background-color: white;
-        background-position: center center;
+        margin: 0 auto
+        
       }
