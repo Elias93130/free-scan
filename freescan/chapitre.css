@@ -43,10 +43,11 @@
 
        .encadre {
         border: 5px solid black;
-        padding: 17px; /* Ajoute un espace (rembourrage) à l'intérieur de la bordure pour séparer le contenu du cadre */
+        padding: 17px;
         justify-content: center;
         align-items: center;
         height: auto;
         width: 750px;
         background-color: white;
+        background-position: center center;
       }
