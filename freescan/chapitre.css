@@ -15,6 +15,14 @@
 
     button{
        text-align: center;
+       font-family:Arial, Helvetica, sans-serif;
+       background: #ffffff;
+       font-weight: lighter;
+       font-size: 15px;
+       padding: 4px 4px;
+       border: 2px solid black;
+       border-radius: 20px;
+       display:inline-block;
     }
 
     .centered-image{
@@ -24,7 +32,7 @@
     body{
         background-image: url(img/tissu-blanc_53876-89528.avif);
         background-size: 100%;
-       }
+    }
 
        .conteneur-images{
         display: flex;
@@ -48,5 +56,4 @@
         width: 750px;
         background-color: white;
         margin: 0 auto
-        
-      }
+       }
