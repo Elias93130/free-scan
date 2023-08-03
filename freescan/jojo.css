@@ -1,31 +1,11 @@
-body{
-    background-image: url(img/tissu-blanc_53876-89528.avif);
-    background-size: 150%;
-   }
-   
-   img{
-    width: 250px;
-    float: left;
+.titre-chapitre{
+  color: white;
 }
+
 p{
     line-height: 1,4%;
 }
 
-.container {
-    background-color: rgb(70, 69, 69); 
-    padding: 20px; 
-    border: 1px solid #504f4f;
-    width: 960px; 
-    height: 400px;
-    box-shadow: 5px 5px 15px rgb(62, 61, 61);
-    
-  }
-  
-  .container img {
-    display: block;
-    margin: 20px;
-    max-width: 100%;
-  }
   
   .container p {
     text-align: left;
@@ -35,15 +15,6 @@ div{
     color: white;
     }
 
-
-    .centered-image{ 
-      height: 150px;
-      width: auto;
-      position: absolute;
-      top: 15%;
-      left: 50%;
-      transform: translate(-50%, -65%)
-      }
 
 
       input[type="text"] {
@@ -62,7 +33,7 @@ div{
         }
   
         a{
-          color: black;
+          color: rgb(0, 0, 0);
           font-weight: 800;
           font-family: arial;
           text-decoration: none;
