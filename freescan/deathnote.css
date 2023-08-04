@@ -12,20 +12,18 @@ line-height: 1,4%;
 }
 
 .container {
-background-color: rgb(70, 69, 69); 
-padding: 20px; 
-border: 1px solid #504f4f;
-width: 930px; 
-height: 380px;
-box-shadow: 5px 5px 15px rgb(62, 61, 61);
-    
+  background-color: rgb(79, 14, 14); 
+  padding: 20px; 
+  border: 1px solid #d13030; 
+  width: 700px; 
+  height: 300px;
+  box-shadow: 5px 5px 15px rgb(0, 0, 0);
+  border: #580b0b;
+  border-radius: 20px;
+  position: relative; top: -400px;
+  position: relative; left: 350px;
   }
   
-  .container img {
-display: block;
-margin: 20px;
-max-width: 100%;
-}
   
   .container p {
 text-align: left;

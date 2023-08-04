@@ -5,28 +5,31 @@ body{
    
    img{
     width: 250px;
-    float: left;
+    height: 400px;
+    border-radius: 20px ;
+    position: relative; left: 80px;
+    position: relative; top: 43px;
+    
 }
 p{
     line-height: 1,4%;
 }
 
 .container {
-    background-color: rgb(70, 69, 69); 
+    background-color: rgb(79, 14, 14); 
     padding: 20px; 
-    border: 1px solid #504f4f;
-    width: 960px; 
-    height: 400px;
-    box-shadow: 5px 5px 15px rgb(62, 61, 61);
+    border: 1px solid #d13030; 
+    width: 700px; 
+    height: 300px;
+    box-shadow: 5px 5px 15px rgb(0, 0, 0);
+    border: #580b0b;
+    border-radius: 20px;
+    position: relative; top: -400px;
+    position: relative; left: 350px;
+  } 
     
-  }
-  
-  .container img {
-    display: block;
-    margin: 20px;
-    max-width: 100%;
-  }
-  
+
+
   .container p {
     text-align: left;
   }
@@ -68,15 +71,30 @@ div{
           text-decoration: none;
            }
 
-           .bouton-lu {
-            background-color: #f0f0f0;
-            border: none;
-            padding: 8px 16px;
-            cursor: pointer;
-            border-radius: 4px;
-        }
-        
-        .bouton-lu.clicked {
-            background-color: #004d00;
-        }
- 
+    
+    
+    .text{
+      background-color: rgb(79, 14, 14); 
+      padding: 20px; 
+      border: 1px solid #d13030; 
+      width: 67px; 
+      height: 30px;
+      box-shadow: 5px 5px 15px rgb(0, 0, 0);
+      border: #580b0b;
+      border-radius: 20px;
+      position: relative; top: -250px;
+      position: relative; left: 250px;
+    }
+
+    .cube{
+        background-color: rgb(79, 14, 14); 
+        padding: 20px; 
+        border: 1px solid #d13030; 
+        width: 67px; 
+        height: 30px;
+        box-shadow: 5px 5px 15px rgb(0, 0, 0);
+        border: #580b0b;
+        border-radius: 20px;
+        position: relative; top: -250px;
+        position: relative; left: 2990px;
+    }
