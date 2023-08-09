@@ -1,142 +1,134 @@
 body{
-background: #000000;  /* fallback for old browsers */
-background: -webkit-linear-gradient(to right, #434343, #000000);  /* Chrome 10-25, Safari 5.1-6 */
-background: linear-gradient(to right, #434343, #000000); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
-background-size: 150%;
+  background: #000000;  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right, #434343, #000000);  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #434343, #000000); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  background-size: 150%;
+     }
+     
+     img{
+   width: 250px;
+  float: left;
+  }
+  p{
+  line-height: 1,4%;
+  }
+  
+  .container {
+  background-color: rgb(70, 69, 69); 
+  padding: 20px; 
+  border: 1px solid #504f4f;
+  width: 930px; 
+  height: 380px;
+  box-shadow: 5px 5px 15px rgb(62, 61, 61);
+      
+    }
+    
+    .container img {
+  display: block;
+  margin: 20px;
+  max-width: 100%;
+  }
+    
+    .container p {
+  text-align: left;
+  }
+  
+    div{
+  color: white;
+  }
+  
+  
+      .centered-image{
+  height: 150px;
+  width: auto;
+  position: absolute;
+  top: 15%;
+  left: 50%;
+  transform: translate(-50%, -65%)
    }
-   
-   img{
- width: 250px;
-float: left;
-}
-p{
-line-height: 1,4%;
-}
-
-.container {
-background-color: rgb(70, 69, 69); 
-padding: 20px; 
-border: 1px solid #504f4f;
-width: 930px; 
-height: 380px;
-box-shadow: 5px 5px 15px rgb(62, 61, 61);
-    
-  }
   
-  .container img {
-display: block;
-margin: 20px;
-max-width: 100%;
-}
   
-  .container p {
-text-align: left;
-}
-
-  div{
-color: white;
-}
-
-
-    .centered-image{
-height: 150px;
-width: auto;
-position: absolute;
-top: 15%;
-left: 50%;
-transform: translate(-50%, -65%)
- }
-
-
- a{
-color: black;
-font-weight: 800;
-font-family: arial;
-text-decoration: none;
- }
-
-
-h4{
-font-weight: 800;
-font-family: arial;
-}
-body {
-  font-family: Arial, sans-serif;
-}
-
-.search-container {
-  text-align: center;
-  padding: 20px;
-}
-
-#search-input {
-  padding: 8px;
-  width: 300px;
-}
-
-#results-container {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
-}
-
-.manga-card {
-  border: 1px solid #ddd;
-  border-radius: 5px;
-  padding: 10px;
-  margin: 10px;
-  width: 200px;
-  text-align: center;
-}
-
-.manga-image {
-  max-width: 150px;
-  max-height: 200px;
-}
-
-
-
-input[type="text"] {
-  padding: 10px;
-  font-size: 16px;
-  width: 300px;
-  border: 1px solid #ccc;
-  border-radius: 5px;
-  }
-
-
-  .bouton-lu {
-    background-color: #f0f0f0;
-    border: none;
-    padding: 8px 16px;
-    cursor: pointer;
-    border-radius: 4px;
-}
-
-.bouton-lu.clicked {
-    background-color: #004d00;
-}
-
-header.black-header {
-  background: #1F1C2C;  /* fallback for old browsers */
-background: -webkit-linear-gradient(to right, #928DAB, #1F1C2C);  /* Chrome 10-25, Safari 5.1-6 */
-background: linear-gradient(to right, #928DAB, #1F1C2C); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
-  color: white;
-  padding: 25px;
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-}
-
-header.black-header a {
+   a{
+  color: black;
+  font-weight: 800;
+  font-family: arial;
   text-decoration: none;
-  color: white;
-}
-
-
-    
-    
-
-   
-    
-    
+   }
+  
+  
+  h4{
+  font-weight: 800;
+  font-family: arial;
+  }
+  body {
+    font-family: Arial, sans-serif;
+  }
+  
+  .search-container {
+    text-align: center;
+    padding: 20px;
+  }
+  
+  #search-input {
+    padding: 8px;
+    width: 300px;
+  }
+  
+  #results-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  
+  .manga-card {
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    padding: 10px;
+    margin: 10px;
+    width: 200px;
+    text-align: center;
+  }
+  
+  .manga-image {
+    max-width: 150px;
+    max-height: 200px;
+  }
+  
+  
+  
+  input[type="text"] {
+    padding: 10px;
+    font-size: 16px;
+    width: 300px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    }
+  
+  
+    .bouton-lu {
+      background-color: #f0f0f0;
+      border: none;
+      padding: 8px 16px;
+      cursor: pointer;
+      border-radius: 4px;
+  }
+  
+  .bouton-lu.clicked {
+      background-color: #004d00;
+  }
+  
+  header.black-header {
+    background: #1F1C2C;  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right, #928DAB, #1F1C2C);  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #928DAB, #1F1C2C); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    color: white;
+    padding: 25px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  header.black-header a {
+    text-decoration: none;
+    color: white;
+  }
