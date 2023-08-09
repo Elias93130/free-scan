@@ -1,0 +1,19 @@
+a{
+  color: rgb(255, 255, 255);
+  font-weight: 800;
+  font-family: arial;
+  text-decoration: none;
+           }
+
+.bouton-lu {
+ background-color: #f0f0f0;
+border: none;
+padding: 8px 16px;
+cursor: pointer;
+border-radius: 4px;
+}
+        
+.bouton-lu.clicked {
+background-color: #004d00;
+}
+
