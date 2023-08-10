@@ -6,8 +6,9 @@ document.addEventListener('DOMContentLoaded', function() {
         // Récupérer les termes de recherche depuis le champ de recherche
         const searchTerm = document.getElementById('searchInput').value.toLowerCase();
         
-        // Appeler la fonction de redirection de recherche
-        searchRedirect(searchTerm);
+        // Appeler la fonction de redirection de recherche en tenant compte du basepath
+        const basePath = getBasePath();
+        searchRedirect(searchTerm, basePath);
     });
     
     // Écouter les modifications dans le champ de recherche
@@ -16,27 +17,25 @@ document.addEventListener('DOMContentLoaded', function() {
         searchInput.addEventListener('keyup', function(event) {
             if (event.key === 'Enter') { // Vérifier si la touche appuyée est "Entrée"
                 const searchTerm = event.target.value.toLowerCase();
-                searchRedirect(searchTerm);
+                const basePath = getBasePath();
+                searchRedirect(searchTerm, basePath);
             }
         });
     }
     
+    // Fonction pour obtenir le chemin de base
+    function getBasePath() {
+        const currentPath = window.location.pathname;
+        const parts = currentPath.split('/');
+        parts.pop(); // Supprimer le dernier élément (nom du fichier actuel)
+        return parts.join('/');
+    }
+    
     // Fonction de redirection de recherche
-    function searchRedirect(searchTerm) {
-        if (searchTerm === "jojo") {
-            window.location.href = "prensentation-mangas/jojo.html";
-        } else if (searchTerm === "deathnote" || searchTerm === "death note") {
-            window.location.href = "prensentation-mangas/deathnote.html";
-        } else if (searchTerm === "bleach") {
-            window.location.href = "prensentation-mangas/bleach.html";
-        } else if (searchTerm === "ippo" || searchTerm === "hajime no ippo") {
-            window.location.href = "prensentation-mangas/ippo.html";
-        } else if (searchTerm === "bersek") {
-            window.location.href = "prensentation-mangas/bersek.html";
-        } else {
-            // Rediriger vers une page d'erreur ou afficher un message d'aucun résultat trouvé
-            alert("Aucun résultat trouvé.");
-        }
+    function searchRedirect(searchTerm, basePath) {
+        const normalizedSearchTerm = searchTerm.replace(/ /g, ''); // Supprimer les espaces
+        const mangaPagePath = `${basePath}/prensentation-mangas/${normalizedSearchTerm}.html`;
+        window.location.href = mangaPagePath;
     }
     
     // Gérer le marquage de chapitres comme lus
@@ -47,28 +46,9 @@ document.addEventListener('DOMContentLoaded', function() {
         const chapitreLu = this.getAttribute('data-chapitre');
         
         // Vérifie si le chapitre a été lu précédemment et met à jour le statut dans le localStorage
-        const chapitresLus = JSON.parse(localStorage.getItem('chapitresLus')) || {};
-        chapitresLus[chapitreLu] = !chapitresLus[chapitreLu];
-        localStorage.setItem('chapitresLus', JSON.stringify(chapitresLus));
-    }
-    
-    // Sélectionne tous les boutons avec la classe "bouton-lu" et ajoute un gestionnaire d'événement pour le clic
-    const boutonsLu = document.querySelectorAll('.bouton-lu');
-    boutonsLu.forEach(bouton => bouton.addEventListener('click', gererClic));
-    
-    // Au chargement de la page, vérifie s'il y a des chapitres lus enregistrés dans le localStorage et met à jour les boutons
-    const chapitresLus = JSON.parse(localStorage.getItem('chapitresLus')) || {};
-    Object.entries(chapitresLus).forEach(([chapitre, lu]) => {
-        const boutonCorrespondant = document.querySelector(`[data-chapitre="${chapitre}"]`);
-        if (boutonCorrespondant) {
-            if (lu) {
-                boutonCorrespondant.classList.add('clicked');
-            } else {
-                boutonCorrespondant.classList.remove('clicked');
-            }
-        }
-    });
-});
+
+
+
 
 
 
@@ -77,6 +57,4 @@ document.addEventListener('DOMContentLoaded', function() {
 
 
   
-
-
 
