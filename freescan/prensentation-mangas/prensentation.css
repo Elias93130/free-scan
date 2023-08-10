@@ -33,4 +33,19 @@ h4{
 
 .taille-image{
 width: 400px;
+flex-shrink: 0;
 }
+
+.synopsis {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  margin: 0;
+  }
+
+  .presentation-mangas {
+    display: flex;
+    gap: 20px;
+    margin: 15px;
+  }
+  
