@@ -33,6 +33,8 @@ document.addEventListener('DOMContentLoaded', function() {
             window.location.href = "ippo.html";
         } else if (searchTerm === "bersek" || searchTerm === "berserk") {
             window.location.href = "berserk.html";
+        } else if (searchTerm === "dragonball" || searchTerm === "db") {
+            window.location.href = "dragonball.html";
         } else {
             // Rediriger vers une page d'erreur ou afficher un message d'aucun résultat trouvé
             alert("Aucun résultat trouvé.");
@@ -41,7 +43,7 @@ document.addEventListener('DOMContentLoaded', function() {
     
     // Gérer le marquage de chapitres comme lus
     function gererClic() {
-        this.classList.toggle('clicked'); // Ajoute ou retire la classe "clicked" au bouton
+        this.classList.toggle('active'); // Ajoute ou retire la classe "active" au bouton
         
         // Récupère le nom du chapitre depuis l'attribut "data-chapitre"
         const chapitreLu = this.getAttribute('data-chapitre');
@@ -52,9 +54,9 @@ document.addEventListener('DOMContentLoaded', function() {
         localStorage.setItem('chapitresLus', JSON.stringify(chapitresLus));
     }
     
-    // Sélectionne tous les boutons avec la classe "bouton-lu" et ajoute un gestionnaire d'événement pour le clic
-    const boutonsLu = document.querySelectorAll('.bouton-lu');
-    boutonsLu.forEach(bouton => bouton.addEventListener('click', gererClic));
+    // Sélectionne tous les boutons avec la classe "btn-99" et ajoute un gestionnaire d'événement pour le clic
+    const boutons = document.querySelectorAll('.btn-99');
+    boutons.forEach(bouton => bouton.addEventListener('click', gererClic));
     
     // Au chargement de la page, vérifie s'il y a des chapitres lus enregistrés dans le localStorage et met à jour les boutons
     const chapitresLus = JSON.parse(localStorage.getItem('chapitresLus')) || {};
@@ -62,13 +64,36 @@ document.addEventListener('DOMContentLoaded', function() {
         const boutonCorrespondant = document.querySelector(`[data-chapitre="${chapitre}"]`);
         if (boutonCorrespondant) {
             if (lu) {
-                boutonCorrespondant.classList.add('clicked');
+                boutonCorrespondant.classList.add('active');
             } else {
-                boutonCorrespondant.classList.remove('clicked');
+                boutonCorrespondant.classList.remove('active');
             }
         }
     });
 });
+
+document.addEventListener("DOMContentLoaded", function () {
+    var btn = document.querySelector(".btn-99");
+  
+    btn.addEventListener("click", function () {
+      btn.classList.toggle("active");
+    });
+  });
+
+
+
+
+
+
+
+document.addEventListener("DOMContentLoaded", function () {
+    var btn = document.querySelector(".btn-99");
+  
+    btn.addEventListener("click", function () {
+      btn.classList.toggle("active");
+    });
+  });
+  
 
 
 

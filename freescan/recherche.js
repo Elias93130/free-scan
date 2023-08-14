@@ -28,11 +28,13 @@ document.addEventListener('DOMContentLoaded', function() {
         } else if (searchTerm === "deathnote" || searchTerm === "death note") {
             window.location.href = "prensentation-mangas/deathnote.html";
         } else if (searchTerm === "bleach") {
-            window.location.href = "prensentation-mangas/bleach.html";
+            window.location.href = "bleach.html";
         } else if (searchTerm === "ippo" || searchTerm === "hajime no ippo") {
             window.location.href = "prensentation-mangas/ippo.html";
-        } else if (searchTerm === "bersek") {
-            window.location.href = "prensentation-mangas/bersek.html";
+        } else if (searchTerm === "bersek" || searchTerm === "berserk") {
+            window.location.href = "prensentation-mangas/berserk.html";
+        } else if (searchTerm === "dragonball" || searchTerm === "db") {
+            window.location.href = "prensentation-mangas/dragonball.html";
         } else {
             // Rediriger vers une page d'erreur ou afficher un message d'aucun résultat trouvé
             alert("Aucun résultat trouvé.");

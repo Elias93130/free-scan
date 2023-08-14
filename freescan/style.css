@@ -52,18 +52,19 @@ body {
   background-size: auto;
 }
 header.black-header {
-background-image: url(img/header-freescan.png);
-background-repeat: no-repeat;
-background-repeat: cover;
-  color: white;
-  padding: 25px;
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-}
+  background-image: url(img/header-freescan_auto_x2.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+    color: rgb(0, 0, 0);
+    padding: 170px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
 header.black-header a {
   text-decoration: none;
-  color: white;
+  color: rgb(255, 255, 255);
+  font-weight: bolder;
 }
 nav ul {
   list-style: none;
