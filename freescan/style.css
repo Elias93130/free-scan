@@ -1,27 +1,28 @@
 @import url("https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500;1,600&display=swap");
 body {
-background: #000000;  /* fallback for old browsers */
-background: -webkit-linear-gradient(to right, #434343, #000000);  /* Chrome 10-25, Safari 5.1-6 */
-background: linear-gradient(to right, #434343, #000000); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+background: #ffffff;  /* fallback for old browsers */
 }
+
+
 .latest {
-  background-color: #080808;
+  background-color: #ffffff;
   display: flex;
   flex-direction: column;
   border-radius: 16px;
   margin: 30px;
-  box-shadow: rgba(150, 148, 148, 0.4) 10px 10px;
 }
+
 .latest-title {
-  border-bottom: 1px solid white;
-  color: white;
+
+  color: rgb(0, 0, 0);
   text-align: center;
   padding-bottom: 10px;
+  background-color: rgb(255,162,30);
 }
 
 .latest-manga-list {
   display: flex;
-  gap: 30px;
+  gap: 50px;
   margin: 15px;
 }
 
@@ -30,16 +31,16 @@ background: linear-gradient(to right, #434343, #000000); /* W3C, IE 10+/ Edge, F
 }
 
 .welcome {
-  color: white;
+  color: rgb(0, 0, 0);
   border-radius: 16px;
   margin: 30px;
-  background-color: black;
+  background-color: rgb(255, 255, 255);
   padding: 15px;
 }
 
 .weclome-title {
     text-align: center;
-    color:#ccc
+    color:#000000
 }
 body {
   font-family: "Playfair Display", serif;
@@ -51,9 +52,9 @@ body {
   background-size: auto;
 }
 header.black-header {
-  background: #1F1C2C;  /* fallback for old browsers */
-background: -webkit-linear-gradient(to right, #928DAB, #1F1C2C);  /* Chrome 10-25, Safari 5.1-6 */
-background: linear-gradient(to right, #928DAB, #1F1C2C); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+background-image: url(img/header-freescan.png);
+background-repeat: no-repeat;
+background-repeat: cover;
   color: white;
   padding: 25px;
   display: flex;
