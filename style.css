@@ -121,19 +121,38 @@ nav ul li a {
           display: block;
           }
 
-        @media screen and (max-width:414){
+        @media screen and (max-width:414px){
           header.black-header {
             background-image: url(img/header-freescan_auto_x2.jpg);
             background-size: cover;
-            height: 0px;
+            height: 1px;
             width: 170px;
             background-repeat: no-repeat;
             color: rgb(0, 0, 0);
-            padding: 170px;
+            padding: 130px;
             display: flex;
             justify-content: space-between;
             align-items: center;
+            margin-left: -37px;
         }  
+
+        .logo img {
+            height: 100px;
+            margin: 0 auto;
+            display: block;
+            margin-left: -300px;
+            margin-top: 100px;
+          }
+
+          nav ul{
+            list-style: none;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            margin-top: 190px;
+          }
+
+        
         }
           
   
