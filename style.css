@@ -121,7 +121,7 @@ nav ul li a {
           display: block;
           }
 
-        @media screen and (max-width: 414px){
+        @media screen and (max-width:414px){
           .header.black-header {
             background-image: url(img/header-freescan_auto_x2.jpg);
             background-size: cover;
@@ -164,7 +164,7 @@ nav ul li a {
     margin-block-end: 1em;
     margin-inline-start: 0px;
     margin-inline-end: 0px;
-    margin-left: 18px;
+    margin-left: 17px;
 }
 
         .latest-title {
