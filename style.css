@@ -133,7 +133,7 @@ nav ul li a {
             display: flex;
             justify-content: space-between;
             align-items: center;
-            margin-left: -37px;
+            margin-left: -79px;
         }  
 
         .logo img {
@@ -151,6 +151,29 @@ nav ul li a {
             display: flex;
             margin-top: 190px;
           }
+          
+          .weclome-title {
+            text-align: center;
+            margin-left: -63px;
+            color: #000000;
+        }
+
+        p {
+          display: block;
+          margin-block-start: 1em;
+          margin-block-end: 1em;
+          margin-inline-start: 0px;
+          margin-inline-end: 0px;
+          margin-left: -63px;
+      }
+
+        .latest-title {
+         color: rgb(0, 0, 0);
+         text-align: center;
+         padding-bottom: 10px;
+         background-color: rgb(255,162,30);
+         margin-left: -63px;
+    }
 
         
         }
