@@ -116,41 +116,41 @@ nav ul li a {
           object-fit: 100%;
         }
         .logo img {
-          height: 160px;
+          height: 150px;
           margin: 0 auto;
           display: block;
           }
 
-        @media screen and (max-width:414px){
-          header.black-header {
+        @media screen and (max-width: 414px){
+          .header.black-header {
             background-image: url(img/header-freescan_auto_x2.jpg);
             background-size: cover;
             height: 1px;
             width: 170px;
-            background-repeat: no-repeat;
             color: rgb(0, 0, 0);
-            padding: 130px;
             display: flex;
             justify-content: space-between;
             align-items: center;
             margin-left: -79px;
-        }  
+            background-repeat: no-repeat;
+            padding: 162px;
+        } 
 
         .logo img {
-            height: 160px;
-            margin: 0 auto;
-            display: block;
-            margin-left: -300px;
-            margin-top: 100px;
-          }
+          height: 100px;
+          margin: 0 auto;
+          display: block;
+          margin-left: -300px;
+          margin-top: 100px;
+      }
 
-          nav ul{
-            list-style: none;
-            margin: 0;
-            padding: 0;
-            display: flex;
-            margin-top: 190px;
-          }
+          .nav ul {
+        list-style: none;
+        margin: 0;
+        padding: 0;
+        display: flex;
+        margin-top: 190px;
+    }
           
           .weclome-title {
             text-align: center;
@@ -158,7 +158,7 @@ nav ul li a {
             color: #000000;
         }
 
-        p {
+        .p {
     display: block;
     margin-block-start: 1em;
     margin-block-end: 1em;
