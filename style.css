@@ -137,7 +137,7 @@ nav ul li a {
         }  
 
         .logo img {
-            height: 100px;
+            height: 160px;
             margin: 0 auto;
             display: block;
             margin-left: -300px;
@@ -159,13 +159,13 @@ nav ul li a {
         }
 
         p {
-          display: block;
-          margin-block-start: 1em;
-          margin-block-end: 1em;
-          margin-inline-start: 0px;
-          margin-inline-end: 0px;
-          margin-left: -63px;
-      }
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    margin-left: 18px;
+}
 
         .latest-title {
          color: rgb(0, 0, 0);
@@ -173,9 +173,17 @@ nav ul li a {
          padding-bottom: 10px;
          background-color: rgb(255,162,30);
          margin-left: -63px;
-    }
+        }
 
-        
+        .input[type="text"] {
+    padding: 12px;
+    font-size: 16px;
+    width: 300px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin-left: -320px;
+    margin-top: 330px;
+}
         }
           
   
