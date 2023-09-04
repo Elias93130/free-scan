@@ -28,6 +28,30 @@ background: #ffffff;  /* fallback for old browsers */
 
 .latest-manga-elem {
   height: 250px;
+
+}
+
+.latest-manga-elem1 {
+  height: 250px;
+}
+
+.latest-manga-elem2 {
+  height: 250px;
+
+}
+
+.latest-manga-elem3 {
+  height: 250px;
+
+}
+
+.latest-manga-elem4 {
+  height: 250px;
+}
+
+.latest-manga-elem5 {
+  height: 250px;
+  
 }
 
 .welcome {
@@ -135,11 +159,12 @@ nav ul li a {
             padding: 162px;
         } 
 
-        logo img {
-          height: 120px;
-          margin: 0 auto;
-          display: block;
-          margin-left: -320px;
+        .logo {
+          height: 900px;
+          width: 300px;
+          background-size:  contain;
+          margin-top: 10px;
+          margin-left: 100px
       }
 
           nav ul {
@@ -174,22 +199,72 @@ nav ul li a {
         }
 
         input[type="text"] {
-    padding: 12px;
-    font-size: 16px;
-    width: 300px;
+    padding: 7px;
+    font-size: 11px;
+    width: 250px;
     border: 1px solid #000000;
     border-radius: 25px;
-    margin-left: -368px;
-    margin-top: 225px;
+    margin-left: -337px;
+    height: 20px;
+    margin-top: 270px;
 }
 
      header.black-header a {
     text-decoration: none;
     color: rgb(255, 255, 255);
     font-weight: bolder;
-    MARGIN-TOP: 8px;
-     margin-left: -12px;
+    MARGIN-TOP: 10px;
+     margin-left: -50px;
      }
-        }
+
+     header.black-header {
+      background-image: url(img/header-freescan_auto_x2.jpg);
+      background-size: cover;
+      color: rgb(0, 0, 0);
+      display: flex;
+      justify-content: space-between;
+      margin-left: -27px;
+      padding: 137px
+     }
+
+     .logo img {
+      height: 120px;
+      margin: 0 auto;
+      display: block;
+      margin-left: -196px
+     }
+   
+
+     .latest-manga-elem5 {
+      height: 250px;
+      margin-left: -540px;
+      
+    }
+     
+    .latest-manga-elem {
+      height: 250px;
+      display: none;
+    }
+
+    .latest-manga-elem1 {
+      height: 250px;
+      margin-left : 157px
+    }
+
+    .latest-manga-elem2 {
+      height: 250px;
+      display: none;
+    }
+
+    .latest-manga-elem3 {
+      height: 250px;
+      display: none;
+    }
+
+    .latest-manga-elem4 {
+      height: 250px;
+      display: none;
+    }
+    }
           
   
