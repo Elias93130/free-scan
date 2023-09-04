@@ -20,6 +20,7 @@ background: #ffffff;  /* fallback for old browsers */
   background-color: rgb(255,162,30);
 }
 
+
 .latest-manga-list {
   display: flex;
   gap: 50px;
@@ -139,18 +140,18 @@ nav ul li a {
           display: block;
           object-fit: 100%;
         }
-        .logo img {
-          height: 150px;
-          margin: 0 auto;
-          display: block;
+        .logo {
+  
+          background-image: url(img/Free_Scan_logo.png);
+          width: 300px;
+          height: 100px;
+          background-size: contain;
           }
 
         @media screen and (max-width:414px){
           header.black-header {
             background-image: url(img/header-freescan_auto_x2.jpg);
             background-size: cover;
-            height: 1px;
-            width: 170px;
             color: rgb(0, 0, 0);
             display: flex;
             justify-content: space-between;
