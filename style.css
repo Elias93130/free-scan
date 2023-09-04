@@ -177,11 +177,19 @@ nav ul li a {
     padding: 12px;
     font-size: 16px;
     width: 300px;
-    border: 1px solid #ccc;
-    border-radius: 5px;
-    margin-left: -370px;
-    margin-top: 330px;
+    border: 1px solid #000000;
+    border-radius: 25px;
+    margin-left: -368px;
+    margin-top: 225px;
 }
+
+     header.black-header a {
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    font-weight: bolder;
+    MARGIN-TOP: 8px;
+     margin-left: -12px;
+     }
         }
           
   
