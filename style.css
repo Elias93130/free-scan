@@ -161,11 +161,11 @@ nav ul li a {
         } 
 
         .logo {
-          height: 900px;
+          height: 90px;
           width: 300px;
           background-size:  contain;
           margin-top: 10px;
-          margin-left: 100px
+          margin-left: 20px
       }
 
           nav ul {
@@ -207,7 +207,7 @@ nav ul li a {
     border-radius: 25px;
     margin-left: -337px;
     height: 20px;
-    margin-top: 270px;
+    margin-top: 200px;
 }
 
      header.black-header a {
@@ -215,7 +215,7 @@ nav ul li a {
     color: rgb(255, 255, 255);
     font-weight: bolder;
     MARGIN-TOP: 10px;
-     margin-left: -50px;
+     margin-left: -40px;
      }
 
      header.black-header {
@@ -224,12 +224,14 @@ nav ul li a {
       color: rgb(0, 0, 0);
       display: flex;
       justify-content: space-between;
-      margin-left: -27px;
-      padding: 137px
+      margin-left: -57px;
+      padding: 1px;
+      width: 469px;
+    
      }
 
      .logo img {
-      height: 120px;
+      height: 1px;
       margin: 0 auto;
       display: block;
       margin-left: -196px
@@ -238,7 +240,7 @@ nav ul li a {
 
      .latest-manga-elem5 {
       height: 250px;
-      margin-left: -540px;
+      margin-left: -589px;
       
     }
      
@@ -249,7 +251,7 @@ nav ul li a {
 
     .latest-manga-elem1 {
       height: 250px;
-      margin-left : 157px
+      margin-left : 140PX
     }
 
     .latest-manga-elem2 {
