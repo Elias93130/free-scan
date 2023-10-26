@@ -26,15 +26,15 @@ document.addEventListener('DOMContentLoaded', function() {
         if (searchTerm === "jojo") {
             window.location.href = "jojo.html";
         } else if (searchTerm === "deathnote" || searchTerm === "death note") {
-            window.location.href = "deathnote.html";
+            window.location.href = "../prensentation-mangas/deathnote.html";
         } else if (searchTerm === "bleach") {
-            window.location.href = "bleach.html";
+            window.location.href = "../prensentation-mangas/bleach.html";
         } else if (searchTerm === "ippo" || searchTerm === "hajime no ippo") {
-            window.location.href = "ippo.html";
+            window.location.href = "../prensentation-mangas/ippo.html";
         } else if (searchTerm === "bersek" || searchTerm === "berserk") {
-            window.location.href = "berserk.html";
+            window.location.href = "../prensentation-mangas/berserk.html";
         } else if (searchTerm === "dragonball" || searchTerm === "db") {
-            window.location.href = "dragonball.html";
+            window.location.href = "../prensentation-mangas/dragonball.html";
         } else {
             // Rediriger vers une page d'erreur ou afficher un message d'aucun résultat trouvé
             alert("Aucun résultat trouvé.");
