@@ -132,3 +132,38 @@ flex-shrink: 0;
   gap: 30px;
 }
   
+   @media screen and (max-width:414px){
+    .taille-image{
+       width: 200px;
+       flex-shrink: 0;
+       margin-top: -24px;
+       margin-left: 45px;
+    }
+
+    .synopsis{
+      margin-left: -150px;
+      margin-top: 250px;
+    }
+
+    .image{
+      height: 200px;
+      width: 200px;
+    }
+    
+    .latest-title{
+      margin-top: 20px;
+    }
+    
+    .logo {
+      height: 90px;
+      width: 300px;
+      background-size: contain;
+      margin-top: 10px;
+      margin-left: -22px;
+  }
+
+  .tome{
+    margin-left: 150px;
+  }
+}
+  

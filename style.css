@@ -207,7 +207,7 @@ nav ul li a {
     border-radius: 25px;
     margin-left: -337px;
     height: 20px;
-    margin-top: 200px;
+    margin-top: 180px;
 }
 
      header.black-header a {
@@ -281,6 +281,14 @@ nav ul li a {
       margin: 15px;
     }
     
+    .encadre{
+      border: 5px solid black;
+      padding: 17px;
+      height: auto;
+      width: auto;
+      background-color: white;
+      margin: 0 auto;
+    }
     
     }
 
@@ -292,4 +300,9 @@ nav ul li a {
     }
     
           
-  
+    .taille-image {
+      width: 260px;
+      height: 260px;
+      flex-shrink: 0;
+      padding: 20px 20px 20px 20px;
+  }
