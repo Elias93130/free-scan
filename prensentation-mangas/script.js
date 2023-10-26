@@ -93,7 +93,60 @@ document.addEventListener("DOMContentLoaded", function () {
       btn.classList.toggle("active");
     });
   });
-  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  var menuOptions = [
+    { value: '', text: '-- Choisissez une page --' },
+    { value: '../scan-dragonball/chapitre1dragonball.html', text: 'chapitre 1' },
+    { value: '../scan-dragonball/chapitre2dragonball.html', text: 'chapitre 2' },
+    { value: '../scan-dragonball/chapitre3dragonball.html', text: 'chapitre 3' },
+    { value: '../scan-dragonball/chapitre4dragonball.html', text: 'chapitre 4' },
+    { value: '../scan-dragonball/chapitre5dragonball.html', text: 'chapitre 5' },
+    { value: '../scan-dragonball/chapitre6dragonball.html', text: 'chapitre 6' },
+    { value: '../scan-dragonball/chapitre7dragonball.html', text: 'chapitre 7' },
+    { value: '../scan-dragonball/chapitre8dragonball.html', text: 'chapitre 8' },
+    { value: '../scan-dragonball/chapitre9dragonball.html', text: 'chapitre 9' },
+    { value: '../scan-dragonball/chapitre10dragonball.html', text: 'chapitre 10' },
+    { value: '../scan-dragonball/chapitre11dragonball.html', text: 'chapitre 11' },
+    { value: '../scan-dragonball/chapitre12dragonball.html', text: 'chapitre 12' },
+    { value: '../scan-dragonball/chapitre13dragonball.html', text: 'chapitre 13' },
+    { value: '../scan-dragonball/chapitre14dragonball.html', text: 'chapitre 14' },
+    { value: '../scan-dragonball/chapitre15dragonball.html', text: 'chapitre 15' },
+    // Ajoutez d'autres options ici
+];
+
+var select = document.getElementById('menuDeroulant');
+
+// Remplissez le menu déroulant avec les options
+menuOptions.forEach(function(option) {
+    var opt = document.createElement('option');
+    opt.value = option.value;
+    opt.textContent = option.text;
+    select.appendChild(opt);
+});
+
+// Fonction de redirection lorsque l'option est sélectionnée
+select.addEventListener('change', function() {
+    var selectedValue = select.value;
+    if (selectedValue) {
+        window.location.href = selectedValue;
+    }
+});
 
 
 
